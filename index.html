@@ -1,0 +1,932 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUSNA SHAHID</title>
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <!-- CSS Files -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/circle.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+  <link href="css/tiny-slider.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Color Stylesheet -->
+  <link href="css/colors/red-color.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+
+
+  <style type="text/css">
+    .timee {
+      color: #000000;
+      font-size: 14px;
+      padding: 3px 12px;
+      display: inline-block;
+      margin-bottom: 12px;
+      border-radius: 5px;
+      font-weight: 500;
+      box-shadow: 0 2px 7px rgb(0 0 0 / 5%);
+      background-color: bisque;
+      opacity: .8;
+    }
+  </style>
+
+
+  <style type="text/css">
+    /* Position the image container (needed to position the left and right arrows) */
+
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 42%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+  </style>
+
+</head>
+
+<body class="light">
+  <!-- Preloader-->
+  <div class="vfx-loader">
+    <div class="loader-wrapper">
+      <div class="loader-content">
+        <div class="loader-dot dot-1"></div>
+        <div class="loader-dot dot-2"></div>
+        <div class="loader-dot dot-3"></div>
+        <div class="loader-dot dot-4"></div>
+        <div class="loader-dot dot-5"></div>
+        <div class="loader-dot dot-6"></div>
+        <div class="loader-dot dot-7"></div>
+        <div class="loader-dot dot-8"></div>
+        <div class="loader-dot dot-center"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Starts -->
+  <header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+      <li class="icon-box tooltip active"><i class="fa fa-home"></i> <a href="#home"></a><span
+          class="tooltiptext tooltip-right">Home</span></li>
+      <li class="icon-box tooltip"><i class="fa fa-id-card"></i> <a href="#about"></a><span
+          class="tooltiptext tooltip-right">About Me</span></li>
+      <li class="icon-box tooltip"><i class="fa fa-image"></i> <a href="#exp"></a><span
+          class="tooltiptext tooltip-right">My Experience</span></li>
+      <li class="icon-box tooltip"><i class="fa fa-envelope"></i> <a href="#contact"></a><span
+          class="tooltiptext tooltip-right">Contact Me</span></li>
+
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav class="d-block d-lg-none">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span> <span></span> <span></span>
+        <ul class="list-unstyled" id="menu">
+          <li class="tooltip active"><a href="#home"><i class="fa fa-home"></i></a><span
+              class="tooltiptext tooltip-right">Home</span></li>
+          <li class="tooltip"><a href="#about"><i class="fa fa-id-card"></i></a><span
+              class="tooltiptext tooltip-right">About Me</span></li>
+          <li class="tooltip"><a href="#exp"><i class="fa fa-image"></i></a><span class="tooltiptext tooltip-right">My
+              Experience</span></li>
+          <li class="tooltip"><a href="#contact"><i class="fa fa-envelope"></i></a><span
+              class="tooltiptext tooltip-right">Contact Me</span></li>
+
+        </ul>
+      </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+  </header>
+  <!-- Header Ends -->
+  <!-- Main Content Starts -->
+  <div id="home" class="home">
+    <section
+      class="container-fluid main-container container-home p-0 hero-area-block utf-element-cover-bg element-cover-bg revealator-slideup revealator-once revealator-delay1"
+      style="background-image:url(img/hero_img_1.jpg);">
+      <!--<div class="color-block d-none d-lg-block"></div>-->
+      <div class="row utf-home-details-container align-items-center">
+        <div class="col-12 col-lg-7 offset-lg-3 utf-home-details text-center text-sm-center ">
+          <div>
+            <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile hero-d-none d-sm-block d-lg-none"
+              alt="my picture" />
+            <h6 class="mb-0 d-block d-lg-block">Hi I'm HUSNA SHAHID</h6>
+            <h1><span>I Am a</span><span class="typed-words"></span></h1>
+            <p>I am a passionate and driven product manager and consultant . I specialize in creating and launching
+              products that not only meet market needs but also create lasting value. Whether you’re looking for
+              strategic guidance or a hands-on approach to product management, I bring a blend of creativity, technical
+              knowledge, and business acumen to every project.
+              <br>
+
+            </p>
+            <a href="#about" class="btn btn-about">About Me <i class="fa fa-user-circle"></i></a>
+            <a href="#contact" class="btn btn-contact">Get in Touch <i class="fa fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="utf-fixed-wrapper">
+        <!-- Languages list -->
+        <div class="utf-fixed-block block-right">
+          <ul class="list-unstyled languages-list">
+            <li><a href="#" target="_blank"><span class="single-language"> Product Manager</span></a></li>
+            <li><a href="#" target="_blank"><span class="single-language"> Product Consultant</span></a></li>
+
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- Main Content Ends -->
+
+
+  <!-- Page Title Starts -->
+  <div id="about" class="about">
+    <section class="title-section text-center text-sm-center revealator-slideup revealator-once revealator-delay1">
+      <!-- <p class="utf-section-description">About Main Info</p>	 -->
+      <h1>About <span>ME</span></h1>
+      <div class="animated-bar"></div>
+      <p class="text-max-700">
+
+        <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+        &nbsp; Product Manager
+        &nbsp;
+
+        <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+
+        <BR>
+
+        <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+        &nbsp; Product Consultant
+        &nbsp;
+
+        <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+
+
+      </p>
+    </section>
+    <!-- Page Title Ends -->
+
+    <!-- Main Content Starts -->
+    <section class="main-content revealator-slideup revealator-once revealator-delay1">
+      <div class="container">
+        <div class="row">
+
+          <!-- Personal Info Starts -->
+          <div class="col-12 col-lg-12 col-xl-12">
+            <div class="row">
+
+              <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 utf-about-user-img">
+                <img src="img/04.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+
+                <!-- <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <img src="img/01.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <img src="img/02.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <img src="img/03.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <img src="img/04.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <img src="img/05.jpg" style="width:100%">
+  </div>
+
+ 
+ 
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  
+ </div> -->
+
+
+              </div>
+              <div class="row col-xl-7 col-lg-7 col-md-12 utf-about-dtl">
+                <div class="col-12 mb-3">
+                  <h2 style="font-size: 30px;">HUSNA SHAHID</h2>
+
+
+                  <ul style="text-align: justify;font-weight: 400;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify;
+    margin-left: -25px;">
+                    <li>Product Strategy Development Expertise in defining and executing comprehensive product
+                      strategies aligned with business objectives.</li>
+                    <li>Market Analysis Advanced skills in conducting market research, competitor analysis, and customer
+                      segmentation to inform product decisions.</li>
+                    <li>Prioritization and Backlog Management Excellent at managing product backlogs and prioritizing
+                      features based on business needs and technical feasibility.</li>
+                    <li>Problem-Solving and Innovation Strong ability to identify product issues, think strategically,
+                      and provide innovative solutions to meet business goals.</li>
+                    <li>Strategic Roadmap Guidance Ability to guide clients in the creation of actionable product
+                      roadmaps that align with their business objectives and market demands.</li>
+                    <li>Cross-Industry Knowledge Broad expertise across multiple industries, bringing valuable insights
+                      and best practices to clients.</li>
+                    <li>Project Management Excellence Effective at leading and managing short-term or high-impact
+                      product initiatives within client organizations.</li>
+                    <li>Risk Assessment and Mitigation Strong proficiency in conducting risk assessments and
+                      recommending actionable risk mitigation strategies for product launches or improvements.</li>
+                  </ul>
+
+                  </p><!-- <p>
+•	Well organized, effective communicator, conscientious multi-tasker, and understand client and costumer requirements
+</p> -->
+                </div>
+                <div class="col-12 mt-3">
+                  <a href="myresume.pdf" target="_blank" class="btn btn-download">Download My CV <i
+                      class="fa fa-download"></i></a>
+                  <a href="#contact" class="btn btn-hire">Hire Me! <i class="fa fa-file"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Skills Starts -->
+
+        <!-- Skills Ends -->
+        <br>
+        <!-- Experience & Education Starts -->
+        <div class="row">
+          <div class="col-lg-12 m-15px-tb">
+            <h3 class="col-title">My Education</h3>
+            <div class="utf-resume-box">
+              <ul>
+                <li>
+                  <div class="icon"></div>
+                  <span class="time">Dec 2023</span>
+                  <span class="time">GPA : 3.80/4.0</span>
+
+                  <h5>Johns Hopkins University, Baltimore, MD<span class="place">Master of Science, Engineering
+                      Management</span></h5>
+                </li>
+
+                <li>
+                  <div class="icon"></div>
+                  <span class="time">June 2018</span>
+                  <span class="time">GPA : 3.12/4.0</span>
+
+                  <h5>Birla Institute of Science and Technology UAE<span class="place">Bachelor of Science Honors,
+                      Computer Science</span></h5>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="exp" class="row">
+          <div class="col-lg-12 m-15px-tb">
+            <h3 class="col-title">Work Experience</h3>
+            <div class="utf-resume-box">
+              <ul>
+                <li>
+                  <div class="icon"></div>
+                  <span class="time">June 2023 - Present</span>
+                  <h5>Product Management MBA Co-op | WORKIVA, Ames, Iowa,5001</h5>
+                  <p><b style="color:#77894d">•</b> Created strategic dashboards using QuickSight, SQL, and Excel to
+                    track KPIs for compliance, user engagement, and product performance across 10+ &nbsp;&nbsp;&nbsp;products, improving
+                    leadership decision-making efficiency by 20%.<br>
+                    <b style="color:#77894d">•</b> Led key product launches for the Capital Markets and SEC team through
+                    user-centric planning and strategic execution, driving an 8% increase in user &nbsp;&nbsp;&nbsp;engagement and
+                    contributing to a 12% boost in customer retention.<br>
+                    <b style="color:#77894d">•</b> Developed detailed product requirements and user stories by analyzing
+                    market trends and user feedback, ensuring alignment with capital markets &nbsp;&nbsp;&nbsp;and SEC compliance needs,
+                    leading to a 10% improvement in regulatory adherence across product offerings.<br>
+                    <b style="color:#77894d">•</b> Collaborated with cross-functional teams- legal, engineering, sales,
+                    and marketing—to align product development with business objectives &regulatory &nbsp;&nbsp;&nbsp;standards,
+                    successfully integrating three compliance-driven features to enhance capital markets offerings.<br>
+                    <b style="color:#77894d">•</b> Monitored regulatory updates and compliance guidelines, adjusting
+                    product features as necessary to maintain adherence and mitigate risks also &nbsp;&nbsp;&nbsp;Developed and maintained
+                    product roadmaps to ensure timely delivery of product features while aligning with company vision
+                    and strategic goals.<br>
+
+
+
+                  </p>
+                </li>
+
+                <li>
+                  <div class="icon"></div>
+                  <span class="time">Oct 2022 - Present</span>
+                  <h5>Sr. Product Manager | PEER CONNECT | Baltimore, Maryland, 21218</h5>
+                  <p><b style="color:#77894d">•</b> Led a cross-functional team in delivering and maintaining 10+ core
+                    features using agile methodologies and user research, resulting in a 30% &nbsp;&nbsp;&nbsp;improvement in university
+                    alignment<br>
+                    <b style="color:#77894d">•</b> Utilized UX/UI principles and design thinking methodologies to
+                    enhance the experiences of international students, resulting in an 80% improvement in &nbsp;&nbsp;&nbsp;platform
+                    accuracy and reliability for over 10,000 users<br>
+                    <b style="color:#77894d">•</b> Conducted market research to identify new segments and developed
+                    pricing models, successfully securing key partnerships with university &nbsp;&nbsp;&nbsp;departments, including Johns
+                    Hopkins University<br>
+                    <b style="color:#77894d">•</b> Developed a comprehensive go-to-market strategy and enhanced
+                    stakeholder engagement, facilitating the successful launch of the platform and &nbsp;&nbsp;&nbsp;driving increased
+                    user adoption.<br>
+                    <b style="color:#77894d">•</b> Established and tracked key performance indicators (KPIs) to measure
+                    product success and user satisfaction, leveraging data analytics to inform &nbsp;&nbsp;&nbsp;decision-making and
+                    continuous improvement efforts<br>
+                  </p>
+                </li>
+
+
+
+                <li>
+                  <div class="icon"></div>
+                  <span class="time">Jan 2023 – May 2023</span>
+                  <h5>Product Consultant | BUURST| Baltimore, Maryland, 21218</h5>
+                  <p><b style="color:#77894d">•</b> Redefined the product vision and roadmap for a cloud storage SaaS
+                    solution by aligning technical features with overarching business objectives, &nbsp;&nbsp;&nbsp;resulting in a 12%
+                    increase in the user base within six months<br>
+                    <b style="color:#77894d">•</b> Collaborated with cross-functional teams, including engineering,
+                    sales, and leadership, to enhance cloud storage integration, achieving a 15% &nbsp;&nbsp;&nbsp;reduction in data
+                    retrieval time and projecting an 18% improvement in overall perfomance<br>
+                    <b style="color:#77894d">•</b> Utilized data-driven insights and competitor analysis to prioritize
+                    feature development, increasing platform scalability by 25% for enterprise users<br>
+                    <b style="color:#77894d">•</b> Emphasized comprehensive risk management and performance KPIs through
+                    proactive planning, achieving 99.5% post-launch system stability and &nbsp;&nbsp;&nbsp;successfully reducing
+                    intergration risks by 10%<br>
+
+                  </p>
+                </li>
+
+
+
+                <li>
+                  <div class="icon"></div>
+                  <span class="time">Dec 2020 – June 2022</span>
+                  <h5>Product Owner | QUIQUP DELIVERIES | Dubai, United Arab Emirates</h5>
+                  <p><b style="color:#77894d">•</b> Implemented product enhancements by utilizing agile methodologies
+                    and transforming user feedback into actionable feature requests through &nbsp;&nbsp;&nbsp;monthly interviews, leading
+                    to increased customer satisfaction and a 15% rise in feature adoption<br>
+                    <b style="color:#77894d">•</b> Negotiated a logistical overhaul with partners to enhance operational
+                    efficiencies and strengthen business relationships, achieving a 7% reduction in &nbsp;&nbsp;&nbsp;Profit and Loss
+                    while improving the value proposition for high-profile clients <br>
+                    <b style="color:#77894d">•</b> Built visualization dashboards using Tableau and SQL to monitor
+                    account data and KPI reports, saving $75K in development costs and reducing &nbsp;&nbsp;&nbsp;manual reporting hours
+                    by 16% by eliminating dependency on multiple teams.<br>
+                    <b style="color:#77894d">•</b> Facilitated sprint planning, reviews, and retrospectives, fostering a
+                    collaborative environment that enhanced team performance and &nbsp;&nbsp;&nbsp;communication, leading to quicker
+                    iterations and product improvements<br>
+
+
+                  </p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Experience & Education Ends -->
+        <div class="pb-3 pt-5 utf-testimonials-section utf-single-section">
+          <div class="col-12">
+            <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">Technical Expertise
+              : </h3>
+          </div>
+
+
+
+          <h6 style="display: inline-block;" class="utf-client-name">Methodologies : </h6>&nbsp;
+          <span class="timee">Agile</span>&nbsp;
+          <span class="timee">Scrum</span>&nbsp;
+          <span class="timee">Waterfall</span>&nbsp;
+          <span class="timee">KanBan</span>&nbsp;
+          <span class="timee">Lean Six Sigma</span>&nbsp;
+
+          <br>
+          <h6 style="display: inline-block;" class="utf-client-name">Product Management : </h6>&nbsp;
+          <span class="timee">Roadmap Planning</span>&nbsp;
+          <span class="timee">Product Strategy</span>&nbsp;
+          <span class="timee">Stakeholder Management</span>&nbsp;
+          <span class="timee">Product Lifecycle</span>&nbsp;
+          <span class="timee">Release Management</span>&nbsp;
+          <span class="timee">Workflow Optimization</span>&nbsp;
+          <span class="timee">KPIs & OKRs</span>&nbsp;
+          <span class="timee">User Interviews</span>&nbsp;
+          <span class="timee">Market Research</span>&nbsp;
+          <span class="timee">Storytelling</span>&nbsp;
+          <span class="timee">Communication</span>&nbsp;
+
+
+          <br>
+          <h6 style="display: inline-block;" class="utf-client-name">Strategic Skill : </h6>&nbsp;
+          <span class="timee">Product Strategy</span>&nbsp;
+          <span class="timee">Roadmap Development</span>&nbsp;
+          <span class="timee">Market Research</span>&nbsp;
+          <span class="timee">Competitive Analysis</span>&nbsp;
+          <span class="timee">Strategic Planning</span>&nbsp;
+
+          <br>
+          <h6 style="display: inline-block;" class="utf-client-name">Technical : </h6>&nbsp;
+          <span class="timee">Tableau</span>&nbsp;
+          <span class="timee">MS Office</span>&nbsp;
+          <span class="timee">Advanced Excel</span>&nbsp;
+          <span class="timee">Python</span>&nbsp;
+          <span class="timee">SQL</span>&nbsp;
+          <span class="timee">Java</span>&nbsp;
+          <span class="timee">C</span>&nbsp;
+          <span class="timee">C++</span>&nbsp;
+          <span class="timee">A/B Testing</span>&nbsp;
+          <span class="timee">Salesforce</span>&nbsp;
+          <span class="timee">JIRA</span>&nbsp;
+          <span class="timee">Figma</span>&nbsp;
+
+          <span class="timee">Miro</span>&nbsp;
+          <span class="timee">Trello</span>&nbsp;
+          <span class="timee">Cloud</span>&nbsp;
+          <span class="timee">API integrations</span>&nbsp;
+
+          <br>
+          <h6 style="display: inline-block;" class="utf-client-name">Analysis : </h6>&nbsp;
+          <span class="timee">Quantitative Analysis</span>&nbsp;
+          <span class="timee">Customer Feedback Analysis</span>&nbsp;
+          <span class="timee">Competitive Analysis</span>&nbsp;
+          <span class="timee">Data Analytics</span>&nbsp;
+
+
+
+          <br>
+
+
+        </div>
+        <!-- Provide Services Starts -->
+
+        <!-- <div class="row pb-3 pt-5 utf-services-section">
+          <div class="col-12">
+            <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">What Can I Do</h3>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Budgeting</h6>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Analytics</h6>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Reporting</h6>
+            </div>
+          </div>
+
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Scheduling</h6>
+            </div>
+          </div>
+
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Research Skills</h6>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Estimation</h6>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Project Administration</h6>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title"> Quality Control </h6>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Project Estimates</h6>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title"> Project Documentation</h6>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="utf-single-service">
+              <h6 class="utf-service-title">Bloomberg terminal</h6>
+            </div>
+          </div>
+
+        </div> -->
+
+
+
+
+        <div class="row pb-3 pt-5 utf-services-section">
+          <div class="col-12">
+            <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">My Hobbies</h3>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/paint-palette.svg">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Painting</b> </p>
+              </b>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/cooking.svg">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Cooking</b> </p>
+              </b>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/cricket.svg">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Cricket</b> </p>
+              </b>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/passport.svg">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Travel and Culture</b> </p>
+              </b>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/swimming_9718069.png">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Swimming</b> </p>
+              </b>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/diving_12271488.png">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Scuba Diving</b> </p>
+              </b>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/reading-book_4072131.png">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Reading</b> </p>
+              </b>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="utf-box-stats with-margin">
+              <img style="width: 18%;" src="img/Videos.png">
+              <br>
+
+              <b>
+                <p class="m-0 position-relative"><b style="color: #666;">Videos</b> </p>
+              </b>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        <!-- Provide Services Ends -->
+
+
+
+      </div>
+
+
+  </div>
+
+
+
+  <!-- Testimonials section Ends -->
+
+
+  <!-- Choose Your Plan Ends -->
+  </div>
+  </section>
+  </div>
+  <!-- Main Content Ends -->
+
+
+
+  <div class="contact">
+    <!-- Page Title Starts -->
+    <section style="margin-bottom: -2%;"
+      class="title-section text-center text-sm-center revealator-slideup revealator-once revealator-delay1">
+      <!-- <p class="utf-section-description">Connect Me</p>	 -->
+      <h1>Get In <span>Touch</span></h1>
+      <div class="animated-bar"></div>
+      <!-- <p class="text-max-700">Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut labore et d magna aliqua enim sed do sit.</p> -->
+    </section>
+    <!-- Page Title Ends -->
+
+    <!-- Main Content Starts -->
+    <section id="contact"
+      class="main-content revealator-slideup revealator-once revealator-delay1 no-transform revealator-within">
+      <div class="container">
+        <div class="row" style="justify-content: center;">
+          <!-- Left Side Starts -->
+
+          <div class="col-12 col-lg-8">
+
+
+            <div class="col-12">
+              <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">My Contact Info
+              </h3>
+            </div>
+            <p class="utf-custom-span-contact position-relative"><i class="fa fa-map-marker position-absolute"></i>
+              <span class="d-block">Location</span>Baltimore, MD
+            </p>
+            <p class="utf-custom-span-contact position-relative"><i class="fa fa-linkedin position-absolute"></i> <span
+                class="d-block">LinkedIn</span><a target="_blank"
+                href="https://www.linkedin.com/in/husna-shahid/">https://www.linkedin.com/in/husna-shahid/</a></p>
+            <p class="utf-custom-span-contact position-relative"><i class="fa fa-envelope position-absolute"></i> <span
+                class="d-block">Email Address</span><a
+                href="mailto:husnaashahid07@gmail.com">husnaashahid07@gmail.com</a></p>
+
+          </div>
+
+          <!-- Left Side Ends -->
+          <!-- Contact Form Starts -->
+          <!-- <div class="col-12 col-lg-7"> -->
+          <!-- <form class="contactform utf-contact-form form mb-5" method="post" action="">
+            <h4 class="utf-content-title">Quote Of The Day </h4>
+           
+            <div class="row">
+              <h6 class="utf-service-title">" Engineering: The art of organizing and directing men, and of controlling the forces and materials of nature for the benefit of the human race."   
+              </h6>
+             
+            </div>
+          </form> -->
+          <!-- </div> -->
+          <!-- Contact Form Ends -->
+        </div>
+        <!-- Map Section Start -->
+
+        <!-- Map Section End -->
+      </div>
+      <br>
+      <center>
+
+        <h6> " <span style="color: red;">Engineering </span> : The art of organizing and directing men, and of
+          controlling the forces and materials of nature for the benefit of the human race."
+        </h6>
+        <br>
+        <h5 style="font-size: medium;">Powered By <a target="_blank" style="color:red;"
+            href="https://www.unitedopt.com/">United OPT</a></h5>
+        <br>
+        <br>
+      </center>
+    </section>
+    <!-- Contact Section Ends -->
+  </div>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+  <!-- JS Files -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/fm.revealator.jquery.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/jquery.hoverdir.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/custom_jquery.js"></script>
+
+  <script src="js/jquery.hoverdir.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/cbpGridGallery.js"></script>
+
+
+  <!--Map Js-->
+
+
+  <script>
+    var typed = new Typed('.typed-words', {
+      strings: ["Product Manager & Consultant"],
+      typeSpeed: 80,
+      backSpeed: 80,
+      backDelay: 4000,
+      startDelay: 1000,
+      loop: true,
+      showCursor: true
+    });
+  </script>
+  <script>
+    tns({
+      container: ".utf-testimonials-section .utf-testimonial-slider",
+      items: 2,
+      gutter: 30,
+      responsive: {
+        0: {
+          items: 1,
+          gutter: 0
+        },
+        768: {
+          items: 2,
+          gutter: 30
+        }
+      },
+      preventScrollOnTouch: "auto",
+      slideBy: "page",
+      mouseDrag: !0,
+      swipeAngle: !1,
+      speed: 400,
+      controls: !1,
+      autoHeight: !0,
+      navPosition: "bottom"
+    });
+  </script>
+  </script>
+</body>
+
+<!-- Mirrored from utouchdesign.com/themes/meetu/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Oct 2021 18:08:41 GMT -->
+
+</html>
